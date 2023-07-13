@@ -1,0 +1,221 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-07T06:51:29.824Z"}
+info: Connected to the database. {"timestamp":"2023-07-07T06:51:34.830Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-07T06:54:31.850Z"}
+info: Connected to the database. {"timestamp":"2023-07-07T06:54:40.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-07T07:10:50.564Z"}
+info: Connected to the database. {"timestamp":"2023-07-07T07:10:54.326Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-07T07:15:24.020Z"}
+info: Connected to the database. {"timestamp":"2023-07-07T07:15:28.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-07T07:15:58.503Z"}
+info: Connected to the database. {"timestamp":"2023-07-07T07:16:04.072Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (D:\workspace\awesome-project\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\workspace\awesome-project\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\workspace\awesome-project\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Jul 07 2023 12:46:08 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":86271.5},"process":{"argv":["node","D:\\workspace\\awesome-project\\src\\index.js"],"cwd":"D:\\workspace\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19164705,"external":20701611,"heapTotal":83185664,"heapUsed":56358256,"rss":121651200},"pid":8220,"uid":null,"version":"v18.16.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1740:16)\n    at listenInCluster (node:net:1788:12)\n    at Server.listen (node:net:1876:7)\n    at Function.listen (D:\\workspace\\awesome-project\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-07-07T07:16:08.381Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1740,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1788,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1876,"method":"listen","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\workspace\\awesome-project\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (D:\workspace\awesome-project\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\workspace\awesome-project\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\workspace\awesome-project\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Jul 07 2023 12:47:04 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":86327.734},"process":{"argv":["node","D:\\workspace\\awesome-project\\src\\index.js"],"cwd":"D:\\workspace\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19176427,"external":20713333,"heapTotal":82923520,"heapUsed":56610464,"rss":124108800},"pid":1880,"uid":null,"version":"v18.16.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1740:16)\n    at listenInCluster (node:net:1788:12)\n    at Server.listen (node:net:1876:7)\n    at Function.listen (D:\\workspace\\awesome-project\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-07-07T07:17:04.620Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1740,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1788,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1876,"method":"listen","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\workspace\\awesome-project\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (D:\workspace\awesome-project\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\workspace\awesome-project\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\workspace\awesome-project\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Jul 07 2023 12:48:13 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":86396.359},"process":{"argv":["node","D:\\workspace\\awesome-project\\src\\index.js"],"cwd":"D:\\workspace\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19185637,"external":20722543,"heapTotal":83185664,"heapUsed":56690512,"rss":124289024},"pid":10880,"uid":null,"version":"v18.16.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1740:16)\n    at listenInCluster (node:net:1788:12)\n    at Server.listen (node:net:1876:7)\n    at Function.listen (D:\\workspace\\awesome-project\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-07-07T07:18:13.240Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1740,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1788,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1876,"method":"listen","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\workspace\\awesome-project\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1740:16)
+    at listenInCluster (node:net:1788:12)
+    at Server.listen (node:net:1876:7)
+    at Function.listen (D:\workspace\awesome-project\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\workspace\awesome-project\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\workspace\awesome-project\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Fri Jul 07 2023 12:48:58 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":86441.5},"process":{"argv":["node","D:\\workspace\\awesome-project\\src\\index.js"],"cwd":"D:\\workspace\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19177445,"external":20714351,"heapTotal":83447808,"heapUsed":56432128,"rss":125239296},"pid":9208,"uid":null,"version":"v18.16.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1740:16)\n    at listenInCluster (node:net:1788:12)\n    at Server.listen (node:net:1876:7)\n    at Function.listen (D:\\workspace\\awesome-project\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-07-07T07:18:58.374Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1740,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1788,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1876,"method":"listen","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\workspace\\awesome-project\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-07T07:20:52.611Z"}
+info: Connected to the database. {"timestamp":"2023-07-07T07:21:05.696Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-07T07:22:37.239Z"}
+info: Connected to the database. {"timestamp":"2023-07-07T07:22:46.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-07T10:02:09.297Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/callback_resolver:47:19)","syscall":"querySrv","timestamp":"2023-07-07T10:02:09.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T03:54:48.949Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T03:54:51.970Z"}
+error: uncaughtException: database is not defined
+ReferenceError: database is not defined
+    at Object.<anonymous> (D:\workspace\awesome-project\src\/index.js:30:1)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\workspace\awesome-project\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Jul 10 2023 09:42:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":334479.265},"process":{"argv":["node","D:\\workspace\\awesome-project\\src\\index.js"],"cwd":"D:\\workspace\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19137222,"external":20655024,"heapTotal":84910080,"heapUsed":61646184,"rss":124776448},"pid":2792,"uid":null,"version":"v18.16.0"},"stack":"ReferenceError: database is not defined\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\src\\/index.js:30:1)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-07-10T04:12:58.087Z","trace":[{"column":1,"file":"D:\\workspace\\awesome-project\\src\\/index.js","function":null,"line":30,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T04:13:57.837Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T04:14:00.271Z"}
+error: uncaughtException: appErrorHandler is not defined
+ReferenceError: appErrorHandler is not defined
+    at Object.<anonymous> (D:\workspace\awesome-project\src\/index.js:31:9)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._compile (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Object.newLoader [as .js] (D:\workspace\awesome-project\node_modules\pirates\lib\index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\workspace\awesome-project\node_modules\@babel\node\src\_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Jul 10 2023 09:45:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":334635.265},"process":{"argv":["node","D:\\workspace\\awesome-project\\src\\index.js"],"cwd":"D:\\workspace\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18818048,"external":20335850,"heapTotal":81764352,"heapUsed":53383304,"rss":122466304},"pid":10160,"uid":null,"version":"v18.16.0"},"stack":"ReferenceError: appErrorHandler is not defined\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\src\\/index.js:31:9)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Module._compile (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Object.newLoader [as .js] (D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1254:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)\n    at Module.load (node:internal/modules/cjs/loader:1117:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:958:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-07-10T04:15:34.093Z","trace":[{"column":9,"file":"D:\\workspace\\awesome-project\\src\\/index.js","function":null,"line":31,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":24,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":7,"file":"D:\\workspace\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\workspace\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1254,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1308,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1117,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":958,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T04:18:37.520Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T04:18:40.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T06:20:04.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T06:20:09.523Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T06:20:12.008Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T10:31:06.498Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T10:31:15.461Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T11:58:21.732Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T11:58:22.092Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T12:10:38.712Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T12:10:38.860Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T16:40:18.123Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T16:40:18.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T16:41:03.493Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T16:41:03.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-10T16:41:33.236Z"}
+info: Connected to the database. {"timestamp":"2023-07-10T16:41:33.365Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:29:23.327Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:29:23.559Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is not allowed 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-07-11T04:29:43.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:32:49.210Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:32:49.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:33:00.588Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:33:00.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:33:15.349Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:33:15.417Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:33:24.713Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:33:24.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:35:37.478Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:35:37.623Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:46:53.056Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:46:53.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:47:25.933Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:47:26.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:50:47.618Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:50:47.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T04:51:21.161Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T04:51:21.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T07:05:21.168Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T07:05:21.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T10:26:26.716Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T10:26:26.853Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T10:33:26.061Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T10:33:26.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T10:52:14.714Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T10:52:14.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-11T11:54:15.532Z"}
+info: Connected to the database. {"timestamp":"2023-07-11T11:54:15.805Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T03:59:09.599Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T03:59:09.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:04:55.259Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:04:55.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:08:31.706Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:08:31.880Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:09:05.207Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:09:05.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:55:08.954Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:55:09.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:55:23.946Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:55:24.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T05:01:33.225Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T05:01:33.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T05:01:41.124Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T05:01:41.249Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-07-12T05:05:48.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T05:14:37.182Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T05:14:37.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T08:16:39.791Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T08:16:39.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T10:38:45.212Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T10:38:45.264Z"}

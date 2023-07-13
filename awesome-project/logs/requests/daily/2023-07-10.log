@@ -1,0 +1,8 @@
+info: ::1 - - [10/Jul/2023:11:55:40 +0000] "GET /api/v1/users HTTP/1.1" 200 29893 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [10/Jul/2023:11:58:51 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [10/Jul/2023:16:40:25 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.32.3"
+
+info: ::1 - - [10/Jul/2023:16:41:10 +0000] "GET /api/v1/abc HTTP/1.1" 404 47 "-" "PostmanRuntime/7.32.3"
+

@@ -1,0 +1,29 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T03:59:09.599Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T03:59:09.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:04:55.259Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:04:55.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:08:31.706Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:08:31.880Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:09:05.207Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:09:05.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:55:08.954Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:55:09.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T04:55:23.946Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T04:55:24.201Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T05:01:33.225Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T05:01:33.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T05:01:41.124Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T05:01:41.249Z"}
+error: 
+    status - 500 
+    message - ValidationError: "name" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-07-12T05:05:48.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T05:14:37.182Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T05:14:37.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T08:16:39.791Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T08:16:39.837Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-07-12T10:38:45.212Z"}
+info: Connected to the database. {"timestamp":"2023-07-12T10:38:45.264Z"}
